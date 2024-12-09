@@ -1,0 +1,109 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-image: url(./travelBackgroundImage.jpg);
+    background-size: 100%;
+}
+.top {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: black;
+    font-size: 1rem;
+}
+.top h1 {
+    font-style: italic;
+    color: white;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.navigation {
+    margin-top: 30px;
+}
+.navigation a {
+    margin-left: 40px;
+    color: white;
+}
+.search {
+    margin: 30px 20px 10px 300px;
+    color: white;
+}
+.search label {
+    margin-right: 5px;
+}
+.searchbutton {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 0.75;
+    border-radius: 20%;
+}
+.clearbutton {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 0.75;
+    border-radius: 20%;
+}
+.countries {
+    color: white;
+    font-size: 1.5rem;
+}
+.frontpage {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+.explore {
+    border: 2px solid black;
+    border-radius: 15%;
+    background-color:cornsilk;
+}
+.explore:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.us {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.contact {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+.formsubmit {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.social {
+    margin-top: 20px;
+    text-align: center;
+}
+social:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .top {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .search {
+        flex-direction: column;
+        margin: 20px 0px 10px 10px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .frontpage {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
